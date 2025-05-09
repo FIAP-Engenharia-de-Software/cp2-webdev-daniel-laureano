@@ -11,6 +11,8 @@
 
 function verificarPalavra(frase, palavraBusca) {
   // TODO: implementar função
+  if (frase.length < 5) {
+    return "A frase é muito curta"
 }
 
 //NÃO REMOVA O CÓDIGO ABAIXO
