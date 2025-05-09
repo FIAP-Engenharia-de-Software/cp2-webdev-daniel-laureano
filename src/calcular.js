@@ -17,7 +17,7 @@ function calcular(num1, num2, operador) {
   else if (num1 === 0 || num2 === 0 && operador === "/") {
     return "Erro: divisão por zero"
   }
-  else if (operador != "+" && operador && "-" && operador != "*" && operador != "/") {
+  else if (operador != "+" && operador != "-" && operador != "*" && operador != "/") {
     return "Erro: operação inválida"
   }
   else if (operador === "+") {
